@@ -31,8 +31,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-#Use it for creating React_conponents
+# Use it for creating React_components
 gem 'react-rails'
+# JBUILDER for creating json very simple methods
+
+gem 'jbuilder', '~> 2.0'
+
 
 
 # Use Unicorn as the app server
