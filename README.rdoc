@@ -1,13 +1,21 @@
-= Setup
+= README
 
-Get the code.
+== Setup
 
-% git clone git@github.com:DmitriyGysev/Rails-React-skeleton.git
+ Get the code.
+
+ git clone git@github.com:DmitriyGysev/Rails-React-skeleton.git
+
+Init your git repo
+
+ git remote set-url origin <address of your repo>
+
+ create test commit
 
 Setup your environment.
 
-% bundle install
+ bundle install
 
-% bundle rake db:create
+ bundle rake db:create
 
-% bundle rake db:migrate
+ bundle rake db:migrate
